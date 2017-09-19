@@ -1,0 +1,25 @@
+{
+  "name": "septer-pipe",
+  "version": "1.0.0",
+  "description": "NodeJs pipe from Java to Web!",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "supervisor ./bin/www"
+  },
+  "keywords": [
+    "pipe"
+  ],
+  "author": "chenliang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.0.1",
+    "express": "^4.15.4",
+    "mongojs": "^2.4.1",
+    "morgan": "^1.8.2",
+    "request": "^2.81.0",
+    "serve-favicon": "^2.4.4"
+  }
+}
