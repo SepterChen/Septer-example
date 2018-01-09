@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var user = require('../dao/user.js');
 var mongojs = require('mongojs');
-var db = mongojs('chenliangs', ['contactList']);
+var db = mongojs('127.0.0.1:27017/chenliangs', ['contactList']);
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {

@@ -1,7 +1,7 @@
 'use strict';
 module.exports = {
 	db:{
-		connecting:'chenliangs',
+		connecting:'127.0.0.1:27017/chenliangs',
 		collections:['contactList']
 	}
 }
