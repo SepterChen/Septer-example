@@ -1,6 +1,23 @@
 ##nodejs
 
-####package.json
+#####
+
+```js
+下载地址: https://nodejs.org/zh-cn/download/
+
+```
+
+>####commond
+
+```cmd
+  node app.js
+  npm install
+  npm script
+
+```
+
+
+>####package.json
 
 ```java
 {
@@ -27,6 +44,7 @@
   }
 }
 
-安装所有dependencies下的依赖包: npm install --prod
-安装所有devDependencies下的依赖包: npm install --only=dev
+安装所有:dependencies下的依赖包: npm install --prod
+安装所有:devDependencies下的依赖包: npm install --only=dev
+安装全局:npm install packagename -g
 ```

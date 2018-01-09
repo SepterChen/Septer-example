@@ -1,0 +1,14 @@
+version: '3'
+services:
+  nodes:
+    build: .
+    ports:
+     - 3000:3000
+    volumes:
+     - ./app:/app
+    links:
+     - mongodb
+  mongodb:
+    image: "bitnami/mongodb:latest"
+    ports:
+     - 27017:27017
