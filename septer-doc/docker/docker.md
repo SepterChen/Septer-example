@@ -6,6 +6,7 @@
 ```
 curl -fsSL https://get.docker.com/ | sh
 
+chkconfig docker on #开机自启动服务
 
 
 ```
