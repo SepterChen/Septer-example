@@ -2,7 +2,9 @@ var express = require('express');
 var router = express.Router();
 var user = require('../dao/user.js');
 var mongojs = require('mongojs');
-var db = mongojs('127.0.0.1:27017/chenliangs', ['contactList']);
+var setting = require("../database/setting");
+
+var db = mongojs(setting.db.connecting,setting.db.collections);
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
