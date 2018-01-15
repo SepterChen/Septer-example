@@ -7,7 +7,10 @@
 curl -fsSL https://get.docker.com/ | sh
 
 chkconfig docker on #开机自启动服务
-
+docker rm $(docker ps -a -q) 删除所有container
+docker stop $(docker ps -a -q) 停止所有容器
+docker rmi $(docker images | grep "^<none>" | awk "{print $3}") 删除所有id为<node>的image
+docker rmi $(docker images -q) 删除所有image
 
 ```
 
