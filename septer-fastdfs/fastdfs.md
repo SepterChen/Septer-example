@@ -86,3 +86,67 @@ curl -o nginx-1.12.2.tar.gz https://nginx.org/download/nginx-1.12.2.tar.gz
 	/usr/local/nginx/sbin/nginx -c /usr/servers/resources/nginx-1.12.2/conf/nginx.conf 
 ```
 
+>java
+```java
+<dependency>
+	<groupId>com.github.tobato</groupId>
+	<artifactId>fastdfs-client</artifactId>
+	<version>1.25.2-RELEASE</version>
+</dependency>
+
+fdfs.soTimeout=1500
+fdfs.connectTimeout=600
+fdfs.trackerList=10.0.4.177:22122
+fdfs.access.host=http://10.0.4.177:9999/
+
+
+spring.http.multipart.maxFileSize=10Mb
+spring.http.multipart.maxRequestSize=10Mb
+
+
+
+@Component
+public class FileUtil {
+
+	@Autowired
+	FastFileStorageClient fastFileStorageClient;
+
+	public String uploadFile(MultipartFile file) throws IOException {
+		StorePath storePath = fastFileStorageClient.uploadFile((InputStream) file.getInputStream(), file.getSize(),
+				FilenameUtils.getExtension(file.getOriginalFilename()), null);
+		return getResAccessUrl(storePath) + "?attname=" + file.getOriginalFilename();
+	}
+
+	// 封装文件完整URL地址
+	private String getResAccessUrl(StorePath storePath) {
+		String fileUrl = storePath.getFullPath();
+		return fileUrl;
+	}
+
+	private void deleteFile(String fullPath) {
+		fastFileStorageClient.deleteFile(fullPath);
+	}
+
+}
+
+@Value("${fdfs.access.host}")
+String accessHost;
+
+@RequestMapping(value = "/testpost", method = RequestMethod.POST)
+public String testPost(@RequestParam("file") MultipartFile file, HttpServletRequest request,Model model) {
+	String url = null;
+	try {
+		url = fileUtil.uploadFile(file);
+		System.err.println(url);
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	model.addAttribute("imageUrl",accessHost+url);
+		
+	return "test";
+}
+
+
+```
+
