@@ -13,7 +13,7 @@ curl -o fastdfs-nginx-module-master.zip https://codeload.github.com/happyfish100
 curl -o nginx-1.12.2.tar.gz https://nginx.org/download/nginx-1.12.2.tar.gz
 
 ```
-####软件安装
+####软件安装	
 >安装编译器软件
 ```bash
 	yum install unzip zip  gcc-c++
@@ -150,3 +150,13 @@ public String testPost(@RequestParam("file") MultipartFile file, HttpServletRequ
 
 ```
 
+>下载
+```bash
+curl -o libfastcommon-master.zip  https://codeload.github.com/happyfish100/libfastcommon/zip/master&&curl -o fastdfs-master.zip https://codeload.github.com/happyfish100/fastdfs/zip/master&&curl -o fastdfs-nginx-module-master.zip https://codeload.github.com/happyfish100/fastdfs-nginx-module/zip/master&&curl -o nginx-1.12.2.tar.gz https://nginx.org/download/nginx-1.12.2.tar.gz
+
+
+
+yum install unzip zip  gcc-c++ && yum -y install pcre pcre-devel  && yum -y install zlib zlib-devel  && yum -y install openssl openssl-devel
+
+
+```
