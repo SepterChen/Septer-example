@@ -1,4 +1,4 @@
-From centos
+FROM centos
 
 RUN mkdir -p /usr/servers/resources && cd /usr/servers/resources
 
