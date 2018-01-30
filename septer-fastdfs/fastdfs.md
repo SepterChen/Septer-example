@@ -13,7 +13,7 @@ curl -o fastdfs-nginx-module-master.zip https://codeload.github.com/happyfish100
 curl -o nginx-1.12.2.tar.gz https://nginx.org/download/nginx-1.12.2.tar.gz
 
 ```
-####软件安装	
+####软件安装
 >安装编译器软件
 ```bash
 	yum install unzip zip  gcc-c++
@@ -24,9 +24,9 @@ curl -o nginx-1.12.2.tar.gz https://nginx.org/download/nginx-1.12.2.tar.gz
 
 >安装libfastcommon-master
 ```bash
-	unzip libfastcommon-master.zip 
+	unzip libfastcommon-master.zip
 	cd libfastcommon-master
-	./make.sh 
+	./make.sh
 	./make.sh install
 	ln -s /usr/lib64/libfastcommon.so /usr/local/lib/libfastcommon.so
 	ln -s /usr/lib64/libfdfsclient.so /usr/local/lib/libfdfsclient.so
@@ -35,9 +35,9 @@ curl -o nginx-1.12.2.tar.gz https://nginx.org/download/nginx-1.12.2.tar.gz
 
 >安装fastdfs-master:tracker
 ```bash
-	unzip fastdfs-master.zip 
+	unzip fastdfs-master.zip
 	cd fastdfs-master
-	./make.sh 
+	./make.sh
 	./make.sh install
 	cd /etc/fdfs/
 	cp client.conf.sample client.conf
@@ -65,28 +65,29 @@ curl -o nginx-1.12.2.tar.gz https://nginx.org/download/nginx-1.12.2.tar.gz
 
 >
 ```bash
-	tar -zxvf nginx-1.12.2.tar.gz 
-	./configure 
+	tar -zxvf nginx-1.12.2.tar.gz
+	./configure
 	make
 	make install
 ```
 
 >安装nginx-fastdfs-module
 ```bash
-	unzip fastdfs-nginx-module-master.zip 
+	unzip fastdfs-nginx-module-master.zip
 	./configure --prefix=/usr/local/nginx --add-module=/usr/servers/resources/fastdfs-nginx-module-master/src/
 	make
 	make install
-	vim nginx.conf 
+	vim nginx.conf
 	/usr/local/nginx/sbin/nginx
 	cp /usr/servers/resources/fastdfs-master/conf/http.conf /etc/fdfs/
 	cp /usr/servers/resources/fastdfs-master/conf/mime.types /etc/fdfs/
 	cp /usr/servers/resources/fastdfs-nginx-module-master/src/mod_fastdfs.conf /etc/fdfs/
-	vim mod_fastdfs.conf 
-	/usr/local/nginx/sbin/nginx -c /usr/servers/resources/nginx-1.12.2/conf/nginx.conf 
+	vim mod_fastdfs.conf
+	/usr/local/nginx/sbin/nginx -c /usr/servers/resources/nginx-1.12.2/conf/nginx.conf
 ```
 
 >java
+
 ```java
 <dependency>
 	<groupId>com.github.tobato</groupId>
@@ -133,30 +134,28 @@ public class FileUtil {
 String accessHost;
 
 @RequestMapping(value = "/testpost", method = RequestMethod.POST)
-public String testPost(@RequestParam("file") MultipartFile file, HttpServletRequest request,Model model) {
+public String testPost(@RequestParam(value = "file", required = false) MultipartFile[] file,
+			HttpServletRequest request, Model model) {
+	List<String> urls = new ArrayList<String>();
 	String url = null;
 	try {
-		url = fileUtil.uploadFile(file);
-		System.err.println(url);
-	} catch (IOException e) {
+		Date startDate = new Date();
+		for (MultipartFile multipartFile : file) {
+			System.err.println(multipartFile.getOriginalFilename());
+			url = fileUtil.uploadFile(multipartFile);
+			urls.add(accessHost+url);
+			System.out.println(url);
+		}
+		Date endDate = new Date();
+		System.err.println(endDate.getTime()-startDate.getTime()+"毫秒");
+	} catch (Exception e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
-	model.addAttribute("imageUrl",accessHost+url);
-		
+	model.addAttribute("urls",urls);
+
 	return "test";
 }
-
-
-```
-
->下载
-```bash
-curl -o libfastcommon-master.zip  https://codeload.github.com/happyfish100/libfastcommon/zip/master&&curl -o fastdfs-master.zip https://codeload.github.com/happyfish100/fastdfs/zip/master&&curl -o fastdfs-nginx-module-master.zip https://codeload.github.com/happyfish100/fastdfs-nginx-module/zip/master&&curl -o nginx-1.12.2.tar.gz https://nginx.org/download/nginx-1.12.2.tar.gz
-
-
-
-yum install unzip zip  gcc-c++ && yum -y install pcre pcre-devel  && yum -y install zlib zlib-devel  && yum -y install openssl openssl-devel
 
 
 ```

@@ -7,6 +7,7 @@
 		<artifactId>dubbo</artifactId>
 		<version>${dubbox.version}</version>
 	</dependency>
+
 	<dependency>
 		<groupId>org.apache.zookeeper</groupId>
 		<artifactId>zookeeper</artifactId>
@@ -18,7 +19,7 @@
 ```xml
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+xsi:schemaLocation="http://www.springframework.org/schema/beans
 		http://www.springframework.org/schema/beans/spring-beans.xsd
 	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
@@ -26,7 +27,7 @@
 		organization="dubbox" />
 
 	<!--redis作为服务中心，username随便写，password写对 -->
-	<!-- <dubbo:registry address="redis://10.0.4.235:6379" username="xxxx" password="12345678" 
+	<!-- <dubbo:registry address="redis://10.0.4.235:6379" username="xxxx" password="12345678"
 		/> -->
 	<!--zookeeper作为服务中心 -->
 	<dubbo:registry address="zookeeper://${zookeeper}" />
@@ -68,25 +69,25 @@
 
 ```
 
-#### beans 
+#### beans
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
-	xmlns:mvc="http://www.springframework.org/schema/mvc" 
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
 	xmlns:context="http://www.springframework.org/schema/context"
 	xsi:schemaLocation="
-	http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans.xsd
 	http://code.alibabatech.com/schema/dubbo
 	http://code.alibabatech.com/schema/dubbo/dubbo.xsd
-	http://www.springframework.org/schema/context 
+	http://www.springframework.org/schema/context
 	http://www.springframework.org/schema/context/spring-context-4.1.xsd
-	http://www.springframework.org/schema/mvc 
+	http://www.springframework.org/schema/mvc
 	http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd
 	">
-	
+
 	<dubbo:service interface="com.cme.marketplan.restful.service.IRestService" ref="restService"  protocol="rest" />
 </beans>
 ```
@@ -101,11 +102,11 @@ public class CircleRestfulService implements ICircleRestfulService {
 
 	@Resource
 	private BusinessAreaMapper businessAreaMapper;
-	
+
 	@Path("get-list")
 	@GET
 	@Override
-	public ResponseData getList(@QueryParam("pf_id") String pf_id, @DefaultValue("1") 
+	public ResponseData getList(@QueryParam("pf_id") String pf_id, @DefaultValue("1")
 								@QueryParam("pageNum") Integer pageNum,
 								@DefaultValue("4") @QueryParam("pageSize") Integer pageSize) {
 		ResponseData responseData = new ResponseData();
@@ -123,7 +124,7 @@ public class CircleRestfulService implements ICircleRestfulService {
 			responseData.setMessage("获取数据失败");
 			responseData.setData(null);
 		}
-		
+
 		return responseData;
 	}
 }
