@@ -8,8 +8,7 @@ RUN yum install -y unzip zip  gcc-c++ && yum -y install pcre pcre-devel  && yum 
 
 RUN tar -zxvf nginx-1.12.2.tar.gz && cd nginx-1.12.2 && ./configure && make && make install
 
-RUN ls
+RUN cd ls
 EXPOSE 8080
 
 ENTRYPOINT ["/usr/local/nginx/sbin/nginx","-c","/usr/servers/resources/nginx-1.12.2/conf/nginx.conf"]
-
