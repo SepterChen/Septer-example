@@ -22,16 +22,22 @@
 		<p class="text-danger"><%= msg %></p>
 	</div>
 	</form>
+	{{data}}
 	</div>
+	
 
+	
 	<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
 </body>
 </html>
 <script type="text/javascript">
-	/*var app = angular.module('login', []);
+	var app = angular.module('login', []);
 	app.controller('loginController',['$scope', '$http', function($scope, $http) {
-		var response = $http.get("http://localhost:3000/login?username="+username+"&password="+password);
-		$scope.msg = response.msg;
-	}]);*/
+		$http.get("http://localhost:3000/user/list").then(function (response) {
+			$scope.data = response.data;
+        }, function (response) {
+
+        });
+	}]);
 
 </script>

@@ -9,6 +9,9 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 
 var session = require('express-session');
+
+var RedisStore = require('connect-redis')(session);
+
 var app = express();
 
 // view engine setup
@@ -25,11 +28,24 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-app.use(session({  
-  resave: true, // don't save session if unmodified  
-  saveUninitialized: false, // don't create session until something stored  
-  secret: 'love'  
-}));  
+app.use(session({
+
+  store: new RedisStore({
+    host: "10.0.4.116",
+    port: 6379,
+    db: "0"
+  }),
+  resave:false,
+  saveUninitialized:true,
+  secret: 'keyboard cat',
+  cookie: {maxAge: 100000}
+}))
+
+// app.use(session({  
+//   resave: true, // don't save session if unmodified  
+//   saveUninitialized: false, // don't create session until something stored  
+//   secret: 'love'  
+// }));  
 
 app.use(function(req,res,next){  
   if (!req.session.user) {  
@@ -37,8 +53,9 @@ app.use(function(req,res,next){
           next();//如果请求的地址是登录则通过，进行下一个请求  
       }  
       else  
-      {  
-          res.redirect('/login');  
+      { 
+        res.redirect('/login');  
+
       }  
   } else if (req.session.user) {  
       next();  
