@@ -32,7 +32,7 @@ router.get('/logout',function(req,res){
     res.redirect('/login');  
 });  
 
-router.get('/*',function(req,res,next){
+router.get('/api/*',function(req,res,next){
     //console.log('ccc');
     httpUtil.pipe(req,res);
 });

@@ -13,10 +13,11 @@ module.exports.pipe = function(req, res){
      * 2.加密方法;
      * 3.解密方法;
      */
-    // if (!sign.checkSign("url","ss")) {
-    //     res.send("接口验证失败");
-    // }
+    /*if (!sign.checkSign("url","ss")) {
+        res.send("接口验证失败");
+    }*/
     var url_index = req.baseUrl+req.url+'?'+URL.parse(req.url).query;
+    url_index = url_index.replace("/api","");
     var url = setting.server.host +　':' + setting.server.port + url_index;
     var r = request(url);
     r.on('error',function(err){
