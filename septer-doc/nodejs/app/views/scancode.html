@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app = "mainApp">
+<head>
+	<title>中机商圈登录</title>
+	<meta name = "viewport" content="width=device-width,initial-scale=1.0 user-scalable = no , maximum-scale=1.0"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+</head>
+
+<body style="margin: 10px; padding: 10px; background-color: rgb(51, 51, 51)">
+	
+	<div class="container container-fluid" style="text-align: center; font-size: 16px; color: white" >
+		<h3>中机商圈登录</h3>
+	<form class="form-horizontal" method="post" action="/login" >
+		<div class="form-group">
+			<img style="width: 280px;height: 280px;" src="http://10.0.4.116:8000/code" alt="">
+		</div>
+		<div class="form-group">
+		<div class="info">
+						<div  id="wx_default_tip">
+			                <p>请使用微信扫描二维码登录</p>
+                            <p>“中机商圈”</p>
+			            </div>
+			            <div  style="display:none;" id="wx_after_scan">
+			                <div style="color: #3bc268;">
+			                    <h4>扫描成功</h4>
+			                    <p>请在微信中点击确认即可登录</p>
+			                </div>
+			            </div>
+			            <div  style="display:none;" id="wx_after_cancel">
+			                <div class="status_txt" style="color: #f1c578;">
+			                    <h4>您已取消此次登录</h4>
+			                    <p>您可再次扫描登录，或关闭窗口</p>
+			                </div>
+			            </div>
+			        </div>
+		</div>
+	</form>
+	<!-- {{data}} -->
+	</div>
+
+
+</body>
+</html>

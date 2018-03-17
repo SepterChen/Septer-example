@@ -12,17 +12,17 @@
 	<h3 style="float: left;">Login Page</h3>
 	<form class="form-horizontal" method="post" action="/login" >
 		<div class="form-group">
-			<input class="form-control" type="text" name="username" ng-model="username" placeholder="username" />
+			<input class="form-control" type="text" required  name="username" ng-model="username" placeholder="username" />
 		</div>
 		<div class="form-group">
-		<input class="form-control" type="password" name="password" ng-model="password" placeholder="password" />
+		<input class="form-control" type="password" required name="password" ng-model="password" placeholder="password" />
 		</div>
 		<div class="form-group">
 		<input class="form-control btn btn-success" type="submit" value="Login"/>
 		<p class="text-danger"><%= msg %></p>
 	</div>
 	</form>
-	{{data}}
+	<!-- {{data}} -->
 	</div>
 	
 
@@ -31,13 +31,25 @@
 </body>
 </html>
 <script type="text/javascript">
-	var app = angular.module('login', []);
+	/*var app = angular.module('login', []);
 	app.controller('loginController',['$scope', '$http', function($scope, $http) {
 		$http.get("http://localhost:3000/user/list").then(function (response) {
 			$scope.data = response.data;
         }, function (response) {
 
         });
-	}]);
-
+	}]);*/
+    //对悬浮窗的设置  
+    function validatelt(inputelement,err){  
+        if(inputelement.validity.patternMismatch){  
+            inputelement.setCustomValidity(err);  
+            //错误后就清空，不过执行顺序有点问题就不要了  
+//                if(confirm("输入有误,是否清空此项？")){  
+//                    inputelement.value="";  
+//                }  
+        }else{  
+            //inputelement.setCustomValidity("");  
+            return true;  
+        }  
+    }  
 </script>
