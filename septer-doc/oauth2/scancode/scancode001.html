@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>scancode.md—F:\Work\Septer-example\septer-doc\oauth2\scancode</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"/>
+    <style type="text/css">
+      .markdown-body hr{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC")}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="markup">
+        <article id="content" class="markdown-body">
+          <h2>Java-QRCode</h2>
+<div class="codehilite"><pre><span class="nt">&lt;dependency&gt;</span>  
+    <span class="nt">&lt;groupId&gt;</span>net.glxn.qrgen<span class="nt">&lt;/groupId&gt;</span>  
+    <span class="nt">&lt;artifactId&gt;</span>javase<span class="nt">&lt;/artifactId&gt;</span>  
+    <span class="nt">&lt;version&gt;</span>2.0<span class="nt">&lt;/version&gt;</span>  
+<span class="nt">&lt;/dependency&gt;</span>
+</pre></div>
+
+
+<div class="codehilite"><pre><span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">AbstractQRCode</span> <span class="n">qrCode</span> <span class="o">=</span> <span class="n">QRCode</span><span class="o">.</span><span class="na">from</span><span class="o">(</span><span class="s">&quot;http://www.baidu.com&quot;</span><span class="o">);</span>
+    <span class="c1">// 设置字符集，支持中文</span>
+    <span class="n">qrCode</span><span class="o">.</span><span class="na">withCharset</span><span class="o">(</span><span class="s">&quot;utf-8&quot;</span><span class="o">);</span>
+    <span class="c1">// 设置生成的二维码图片大小</span>
+    <span class="n">qrCode</span><span class="o">.</span><span class="na">withSize</span><span class="o">(</span><span class="mi">260</span><span class="o">,</span> <span class="mi">260</span><span class="o">);</span>
+    <span class="n">ByteArrayOutputStream</span> <span class="n">out</span> <span class="o">=</span> <span class="n">qrCode</span><span class="o">.</span><span class="na">to</span><span class="o">(</span><span class="n">ImageType</span><span class="o">.</span><span class="na">PNG</span><span class="o">).</span><span class="na">stream</span><span class="o">();</span>
+    <span class="n">File</span> <span class="n">file</span> <span class="o">=</span> <span class="k">new</span> <span class="n">File</span><span class="o">(</span><span class="s">&quot;D:\\qrCode.png&quot;</span><span class="o">);</span>
+    <span class="n">FileOutputStream</span> <span class="n">fout</span> <span class="o">=</span> <span class="kc">null</span><span class="o">;</span>
+    <span class="k">try</span> <span class="o">{</span>
+        <span class="n">fout</span> <span class="o">=</span> <span class="k">new</span> <span class="n">FileOutputStream</span><span class="o">(</span><span class="n">file</span><span class="o">);</span>
+        <span class="n">fout</span><span class="o">.</span><span class="na">write</span><span class="o">(</span><span class="n">out</span><span class="o">.</span><span class="na">toByteArray</span><span class="o">());</span>
+        <span class="n">fout</span><span class="o">.</span><span class="na">flush</span><span class="o">();</span>
+        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;***********二维码生成成功！**********&quot;</span><span class="o">);</span>
+    <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">FileNotFoundException</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">e</span><span class="o">.</span><span class="na">printStackTrace</span><span class="o">();</span>
+    <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">IOException</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">e</span><span class="o">.</span><span class="na">printStackTrace</span><span class="o">();</span>
+    <span class="o">}</span> <span class="k">finally</span> <span class="o">{</span>
+        <span class="k">try</span> <span class="o">{</span>
+            <span class="n">fout</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+            <span class="n">out</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+        <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">IOException</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">e</span><span class="o">.</span><span class="na">printStackTrace</span><span class="o">();</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+<span class="nd">@RequestMapping</span><span class="o">(</span><span class="s">&quot;code&quot;</span><span class="o">)</span>
+<span class="kd">public</span> <span class="n">Object</span> <span class="nf">code</span><span class="o">(</span><span class="n">HttpServletRequest</span> <span class="n">request</span><span class="o">,</span> <span class="n">HttpServletResponse</span> <span class="n">response</span><span class="o">)</span> <span class="kd">throws</span> <span class="n">Exception</span><span class="o">{</span>   
+    <span class="n">AbstractQRCode</span> <span class="n">qrCode</span> <span class="o">=</span> <span class="n">QRCode</span><span class="o">.</span><span class="na">from</span><span class="o">(</span><span class="s">&quot;http://10.0.4.116:8000/code?random=&quot;</span><span class="o">+</span><span class="n">UUID</span><span class="o">.</span><span class="na">randomUUID</span><span class="o">().</span><span class="na">toString</span><span class="o">().</span><span class="na">replaceAll</span><span class="o">(</span><span class="s">&quot;-&quot;</span><span class="o">,</span> <span class="s">&quot;&quot;</span><span class="o">));</span> 
+    <span class="n">qrCode</span><span class="o">.</span><span class="na">withHint</span><span class="o">(</span><span class="n">EncodeHintType</span><span class="o">.</span><span class="na">MARGIN</span><span class="o">,</span> <span class="mi">1</span><span class="o">);</span>
+    <span class="n">response</span><span class="o">.</span><span class="na">setHeader</span><span class="o">(</span><span class="s">&quot;title&quot;</span><span class="o">,</span> <span class="s">&quot;动态生成二维码&quot;</span><span class="o">);</span>
+    <span class="c1">// 设置字符集，支持中文  </span>
+    <span class="n">qrCode</span><span class="o">.</span><span class="na">withCharset</span><span class="o">(</span><span class="s">&quot;utf-8&quot;</span><span class="o">);</span>  
+    <span class="c1">// 设置生成的二维码图片大小  </span>
+    <span class="n">qrCode</span><span class="o">.</span><span class="na">withSize</span><span class="o">(</span><span class="mi">300</span><span class="o">,</span><span class="mi">300</span><span class="o">);</span>
+    <span class="n">ByteArrayOutputStream</span> <span class="n">out</span> <span class="o">=</span> <span class="n">qrCode</span><span class="o">.</span><span class="na">to</span><span class="o">(</span><span class="n">ImageType</span><span class="o">.</span><span class="na">PNG</span><span class="o">).</span><span class="na">stream</span><span class="o">();</span>
+    <span class="n">OutputStream</span> <span class="n">outputStream</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="na">getOutputStream</span><span class="o">();</span>
+    <span class="n">outputStream</span><span class="o">.</span><span class="na">write</span><span class="o">(</span><span class="n">out</span><span class="o">.</span><span class="na">toByteArray</span><span class="o">());</span>
+    <span class="n">out</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+    <span class="n">outputStream</span><span class="o">.</span><span class="na">close</span><span class="o">();</span>
+
+    <span class="k">return</span> <span class="kc">null</span><span class="o">;</span>
+<span class="o">}</span>
+</pre></div>
+
+
+<div class="codehilite"><pre><span class="p">&lt;</span><span class="nt">img</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;width: 280px;height: 280px;&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;http://10.0.4.116:8000/code&quot;</span> <span class="na">alt</span><span class="o">=</span><span class="s">&quot;&quot;</span><span class="p">&gt;</span>
+</pre></div>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>
