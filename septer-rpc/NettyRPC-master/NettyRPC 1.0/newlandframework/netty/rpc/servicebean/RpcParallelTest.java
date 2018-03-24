@@ -21,6 +21,13 @@ import newlandframework.netty.rpc.serialize.support.RpcSerializeProtocol;
 
 public class RpcParallelTest {
 
+    /**
+    *   执行并发操作
+    *   executor:多线程执行类
+    *   parallel:线程执行并发数量
+    *   serverAddress:RPC服务器地址
+    *   protocol:传输协议类型
+    */
     public static void parallelTask(MessageSendExecutor executor, int parallel, String serverAddress, RpcSerializeProtocol protocol) throws InterruptedException {
         //开始计时
         StopWatch sw = new StopWatch();
