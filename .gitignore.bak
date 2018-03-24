@@ -46,7 +46,7 @@ septer-node/septer-angular/septer-angular/app.js
 
 #nodejs
 node_modules
-
-
-#web-flux
-septer-flux/web-flux/
+septer-flux/web-flux/.project
+septer-flux/web-flux/.settings/org.eclipse.m2e.core.prefs
+septer-flux/web-flux/src/test/java/com/speter/webflux/WebFluxApplicationTests.java
+septer-flux/septer-flux.md
