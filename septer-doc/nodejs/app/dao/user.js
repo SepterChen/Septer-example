@@ -26,3 +26,4 @@ module.exports.find = function(condition,callback){
 		}
 	});
 }
+
