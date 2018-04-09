@@ -1,0 +1,17 @@
+{
+    "appenders": [{
+        "type": "console",
+        "category": "app-jk-error"
+    }, {
+        "type": "dateFile",
+        "filename": "../../logs/",
+        "pattern": "yyyy-MM-dd.log",
+        "alwaysIncludePattern": true,
+        "category": "app-jk-error"
+    }],
+    "replaceConsole": true,
+    "levels": {
+        "dateFileLog": "all",
+        "console": "all"
+    }
+}

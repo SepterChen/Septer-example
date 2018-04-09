@@ -1,0 +1,414 @@
+[2017-04-17 10:18:43.564] [ERROR] app-jk-error - 错误
+[2017-04-17 10:18:43.568] [INFO] app-jk-error - 信息
+[2017-04-17 10:18:43.569] [WARN] app-jk-error - 警告cc
+[2017-04-17 10:18:43.570] [DEBUG] app-jk-error - 测试
+[2017-04-17 10:18:43.571] [ERROR] app-jk-error - [ 'D:\\test\\node\\log4j\\app', '10.0.4.36', '988' ]
+[2017-04-17 10:18:58.332] [ERROR] app-jk-error - 错误
+[2017-04-17 10:18:58.336] [INFO] app-jk-error - 信息
+[2017-04-17 10:18:58.338] [WARN] app-jk-error - 警告cc
+[2017-04-17 10:18:58.338] [DEBUG] app-jk-error - 测试
+[2017-04-17 10:18:58.339] [ERROR] app-jk-error - [ 'D:\\test\\node\\log4j\\app', '10.0.4.36', '9888' ]
+[2017-04-17 10:19:09.291] [ERROR] app-jk-error - 错误
+[2017-04-17 10:19:09.295] [INFO] app-jk-error - 信息
+[2017-04-17 10:19:09.297] [WARN] app-jk-error - 警告cc
+[2017-04-17 10:19:09.297] [DEBUG] app-jk-error - 测试
+[2017-04-17 10:19:09.298] [ERROR] app-jk-error - [ 'D:\\软件安装\\NodeJS\\node.exe',
+  'D:\\test\\node\\log4j\\app',
+  '10.0.4.36',
+  '9888' ]
+[2017-04-17 10:19:23.765] [ERROR] app-jk-error - 错误
+[2017-04-17 10:19:23.769] [INFO] app-jk-error - 信息
+[2017-04-17 10:19:23.770] [WARN] app-jk-error - 警告cc
+[2017-04-17 10:19:23.771] [DEBUG] app-jk-error - 测试
+[2017-04-17 10:19:23.771] [ERROR] app-jk-error - [ '10.0.4.36', '9888' ]
+[2017-04-17 10:19:30.733] [ERROR] app-jk-error - 错误
+[2017-04-17 10:19:30.738] [INFO] app-jk-error - 信息
+[2017-04-17 10:19:30.739] [WARN] app-jk-error - 警告cc
+[2017-04-17 10:19:30.739] [DEBUG] app-jk-error - 测试
+[2017-04-17 10:19:30.740] [ERROR] app-jk-error - [ '9888' ]
+[2017-04-17 10:19:54.957] [ERROR] app-jk-error - 错误
+[2017-04-17 10:19:54.961] [INFO] app-jk-error - 信息
+[2017-04-17 10:19:54.962] [WARN] app-jk-error - 警告cc
+[2017-04-17 10:19:54.962] [DEBUG] app-jk-error - 测试
+[2017-04-17 10:19:54.963] [ERROR] app-jk-error - 9888
+[2017-04-17 10:20:20.438] [ERROR] app-jk-error - 错误
+[2017-04-17 10:20:20.442] [INFO] app-jk-error - 信息
+[2017-04-17 10:20:20.443] [WARN] app-jk-error - 警告cc
+[2017-04-17 10:20:20.444] [DEBUG] app-jk-error - 测试
+[2017-04-17 10:20:20.444] [ERROR] app-jk-error - port:9888
+[2017-04-17 10:20:42.110] [ERROR] app-jk-error - 错误
+[2017-04-17 10:20:42.114] [INFO] app-jk-error - 信息
+[2017-04-17 10:20:42.115] [WARN] app-jk-error - 警告cc
+[2017-04-17 10:20:42.116] [DEBUG] app-jk-error - 测试
+[2017-04-17 10:20:42.117] [ERROR] app-jk-error - 
+[2017-04-17 10:20:54.273] [ERROR] app-jk-error - 错误
+[2017-04-17 10:20:54.277] [INFO] app-jk-error - 信息
+[2017-04-17 10:20:54.279] [WARN] app-jk-error - 警告cc
+[2017-04-17 10:20:54.279] [DEBUG] app-jk-error - 测试
+[2017-04-17 10:20:54.280] [ERROR] app-jk-error - 
+[2017-04-17 10:21:00.350] [ERROR] app-jk-error - 错误
+[2017-04-17 10:21:00.354] [INFO] app-jk-error - 信息
+[2017-04-17 10:21:00.356] [WARN] app-jk-error - 警告cc
+[2017-04-17 10:21:00.356] [DEBUG] app-jk-error - 测试
+[2017-04-17 10:21:00.357] [ERROR] app-jk-error - 
+[2017-04-17 10:21:07.741] [ERROR] app-jk-error - 错误
+[2017-04-17 10:21:07.745] [INFO] app-jk-error - 信息
+[2017-04-17 10:21:07.746] [WARN] app-jk-error - 警告cc
+[2017-04-17 10:21:07.747] [DEBUG] app-jk-error - 测试
+[2017-04-17 10:21:07.747] [ERROR] app-jk-error - port:9888
+[2017-04-17 10:23:56.039] [ERROR] app-jk-error - 错误
+[2017-04-17 10:23:56.044] [INFO] app-jk-error - 信息
+[2017-04-17 10:23:56.045] [WARN] app-jk-error - 警告cc
+[2017-04-17 10:23:56.046] [DEBUG] app-jk-error - 测试
+[2017-04-17 10:23:56.047] [ERROR] app-jk-error - [ 'D:\\软件安装\\NodeJS\\node.exe',
+  'D:\\test\\node\\log4j\\app',
+  'host:10.0.4.36',
+  'port:9888' ]
+[2017-04-17 10:24:13.152] [ERROR] app-jk-error - 错误
+[2017-04-17 10:24:13.157] [INFO] app-jk-error - 信息
+[2017-04-17 10:24:13.158] [WARN] app-jk-error - 警告cc
+[2017-04-17 10:24:13.158] [DEBUG] app-jk-error - 测试
+[2017-04-17 10:24:13.159] [ERROR] app-jk-error - D:\软件安装\NodeJS\node.exe
+[2017-04-17 10:24:19.120] [ERROR] app-jk-error - 错误
+[2017-04-17 10:24:19.124] [INFO] app-jk-error - 信息
+[2017-04-17 10:24:19.124] [WARN] app-jk-error - 警告cc
+[2017-04-17 10:24:19.125] [DEBUG] app-jk-error - 测试
+[2017-04-17 10:24:19.126] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 10:24:34.492] [ERROR] app-jk-error - 错误
+[2017-04-17 10:24:34.496] [INFO] app-jk-error - 信息
+[2017-04-17 10:24:34.497] [WARN] app-jk-error - 警告cc
+[2017-04-17 10:24:34.498] [DEBUG] app-jk-error - 测试
+[2017-04-17 10:24:34.499] [ERROR] app-jk-error - 
+[2017-04-17 10:26:03.441] [ERROR] app-jk-error - 错误
+[2017-04-17 10:26:03.445] [INFO] app-jk-error - 信息
+[2017-04-17 10:26:03.446] [WARN] app-jk-error - 警告cc
+[2017-04-17 10:26:03.446] [DEBUG] app-jk-error - 测试
+[2017-04-17 10:26:03.447] [ERROR] app-jk-error - host10.0.4.36
+[2017-04-17 10:26:03.448] [ERROR] app-jk-error - port9888
+[2017-04-17 10:26:16.472] [ERROR] app-jk-error - 错误
+[2017-04-17 10:26:16.476] [INFO] app-jk-error - 信息
+[2017-04-17 10:26:16.477] [WARN] app-jk-error - 警告cc
+[2017-04-17 10:26:16.478] [DEBUG] app-jk-error - 测试
+[2017-04-17 10:26:16.479] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 10:26:16.479] [ERROR] app-jk-error - port:9888
+[2017-04-17 10:26:17.662] [ERROR] app-jk-error - 错误
+[2017-04-17 10:26:17.666] [INFO] app-jk-error - 信息
+[2017-04-17 10:26:17.667] [WARN] app-jk-error - 警告cc
+[2017-04-17 10:26:17.668] [DEBUG] app-jk-error - 测试
+[2017-04-17 10:26:17.669] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 10:26:17.670] [ERROR] app-jk-error - port:9888
+[2017-04-17 11:09:20.331] [ERROR] app-jk-error - 错误
+[2017-04-17 11:09:20.335] [INFO] app-jk-error - 信息
+[2017-04-17 11:09:20.336] [WARN] app-jk-error - 警告cc
+[2017-04-17 11:09:20.336] [DEBUG] app-jk-error - 测试
+[2017-04-17 11:09:20.337] [ERROR] app-jk-error - 10.0.4.231
+[2017-04-17 11:09:20.338] [ERROR] app-jk-error - host:undefined
+[2017-04-17 11:09:20.339] [ERROR] app-jk-error - port:undefined
+[2017-04-17 11:10:01.054] [ERROR] app-jk-error - 错误
+[2017-04-17 11:10:01.058] [INFO] app-jk-error - 信息
+[2017-04-17 11:10:01.060] [WARN] app-jk-error - 警告cc
+[2017-04-17 11:10:01.060] [DEBUG] app-jk-error - 测试
+[2017-04-17 11:10:01.061] [ERROR] app-jk-error - 10.0.4.36
+[2017-04-17 11:10:01.062] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 11:10:01.062] [ERROR] app-jk-error - port:9888
+[2017-04-17 11:10:43.087] [ERROR] app-jk-error - 错误
+[2017-04-17 11:10:43.091] [INFO] app-jk-error - 信息
+[2017-04-17 11:10:43.092] [WARN] app-jk-error - 警告cc
+[2017-04-17 11:10:43.092] [DEBUG] app-jk-error - 测试
+[2017-04-17 11:10:43.093] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 11:10:43.094] [ERROR] app-jk-error - post:9888
+[2017-04-17 11:13:34.093] [ERROR] app-jk-error - 错误
+[2017-04-17 11:13:34.097] [INFO] app-jk-error - 信息
+[2017-04-17 11:13:34.098] [WARN] app-jk-error - 警告cc
+[2017-04-17 11:13:34.099] [DEBUG] app-jk-error - 测试
+[2017-04-17 11:13:34.099] [ERROR] app-jk-error - host:host-10.0.4.36
+[2017-04-17 11:13:34.100] [ERROR] app-jk-error - post:port-9888
+[2017-04-17 11:51:06.558] [ERROR] app-jk-error - 错误
+[2017-04-17 11:51:06.563] [INFO] app-jk-error - 信息
+[2017-04-17 11:51:06.564] [WARN] app-jk-error - 警告cc
+[2017-04-17 11:51:06.565] [DEBUG] app-jk-error - 测试
+[2017-04-17 11:51:06.565] [ERROR] app-jk-error - host:host-10.0.4.36
+[2017-04-17 11:51:06.566] [ERROR] app-jk-error - post:port-9888
+[2017-04-17 11:51:19.186] [ERROR] app-jk-error - 错误
+[2017-04-17 11:51:19.190] [INFO] app-jk-error - 信息
+[2017-04-17 11:51:19.191] [WARN] app-jk-error - 警告cc
+[2017-04-17 11:51:19.191] [DEBUG] app-jk-error - 测试
+[2017-04-17 11:51:19.192] [ERROR] app-jk-error - host:host-10.0.4.36
+[2017-04-17 11:51:19.193] [ERROR] app-jk-error - post:port-9888
+[2017-04-17 11:51:19.193] [ERROR] app-jk-error - 0: D:\软件安装\NodeJS\node.exe
+[2017-04-17 11:51:19.194] [ERROR] app-jk-error - 1: D:\test\node\log4j\app.js
+[2017-04-17 11:51:19.195] [ERROR] app-jk-error - 2: host-10.0.4.36
+[2017-04-17 11:51:19.196] [ERROR] app-jk-error - 3: port-9888
+[2017-04-17 11:51:41.385] [ERROR] app-jk-error - 错误
+[2017-04-17 11:51:41.389] [INFO] app-jk-error - 信息
+[2017-04-17 11:51:41.390] [WARN] app-jk-error - 警告cc
+[2017-04-17 11:51:41.391] [DEBUG] app-jk-error - 测试
+[2017-04-17 11:51:41.392] [ERROR] app-jk-error - host:10.0.4.36:9888
+[2017-04-17 11:51:41.393] [ERROR] app-jk-error - post:undefined
+[2017-04-17 11:51:41.393] [ERROR] app-jk-error - 0: D:\软件安装\NodeJS\node.exe
+[2017-04-17 11:51:41.394] [ERROR] app-jk-error - 1: D:\test\node\log4j\app.js
+[2017-04-17 11:51:41.395] [ERROR] app-jk-error - 2: 10.0.4.36:9888
+[2017-04-17 11:52:43.694] [ERROR] app-jk-error - 错误
+[2017-04-17 11:52:43.698] [INFO] app-jk-error - 信息
+[2017-04-17 11:52:43.699] [WARN] app-jk-error - 警告cc
+[2017-04-17 11:52:43.700] [DEBUG] app-jk-error - 测试
+[2017-04-17 11:52:43.700] [ERROR] app-jk-error - 10.0.4.36
+[2017-04-17 11:52:43.701] [ERROR] app-jk-error - post:undefined
+[2017-04-17 11:52:43.702] [ERROR] app-jk-error - 0: D:\软件安装\NodeJS\node.exe
+[2017-04-17 11:52:43.703] [ERROR] app-jk-error - 1: D:\test\node\log4j\app.js
+[2017-04-17 11:52:43.703] [ERROR] app-jk-error - 2: 10.0.4.36:9888
+[2017-04-17 11:52:59.600] [ERROR] app-jk-error - 错误
+[2017-04-17 11:52:59.603] [INFO] app-jk-error - 信息
+[2017-04-17 11:52:59.605] [WARN] app-jk-error - 警告cc
+[2017-04-17 11:52:59.606] [DEBUG] app-jk-error - 测试
+[2017-04-17 11:52:59.607] [ERROR] app-jk-error - 10.0.4.36
+[2017-04-17 11:52:59.608] [ERROR] app-jk-error - 0: D:\软件安装\NodeJS\node.exe
+[2017-04-17 11:52:59.608] [ERROR] app-jk-error - 1: D:\test\node\log4j\app.js
+[2017-04-17 11:52:59.609] [ERROR] app-jk-error - 2: 10.0.4.36:9888
+[2017-04-17 11:53:32.788] [ERROR] app-jk-error - 错误
+[2017-04-17 11:53:32.792] [INFO] app-jk-error - 信息
+[2017-04-17 11:53:32.793] [WARN] app-jk-error - 警告cc
+[2017-04-17 11:53:32.794] [DEBUG] app-jk-error - 测试
+[2017-04-17 11:53:32.794] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 11:53:32.795] [ERROR] app-jk-error - post:9888
+[2017-04-17 11:53:32.796] [ERROR] app-jk-error - 0: D:\软件安装\NodeJS\node.exe
+[2017-04-17 11:53:32.796] [ERROR] app-jk-error - 1: D:\test\node\log4j\app.js
+[2017-04-17 11:53:32.797] [ERROR] app-jk-error - 2: 10.0.4.36:9888
+[2017-04-17 11:54:24.857] [ERROR] app-jk-error - 错误
+[2017-04-17 11:54:24.862] [INFO] app-jk-error - 信息
+[2017-04-17 11:54:24.863] [WARN] app-jk-error - 警告cc
+[2017-04-17 11:54:24.863] [DEBUG] app-jk-error - 测试
+[2017-04-17 11:54:24.864] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 11:54:24.865] [ERROR] app-jk-error - post:9888
+[2017-04-17 11:54:24.866] [ERROR] app-jk-error - 0: D:\软件安装\NodeJS\node.exe
+[2017-04-17 11:54:24.867] [ERROR] app-jk-error - 1: D:\test\node\log4j\app.js
+[2017-04-17 11:54:24.868] [ERROR] app-jk-error - 2: 10.0.4.36:9888
+[2017-04-17 11:58:23.349] [ERROR] app-jk-error - 错误
+[2017-04-17 11:58:23.353] [INFO] app-jk-error - 信息
+[2017-04-17 11:58:23.354] [WARN] app-jk-error - 警告cc
+[2017-04-17 11:58:23.354] [DEBUG] app-jk-error - 测试
+[2017-04-17 11:58:23.355] [ERROR] app-jk-error - host:host-10.0.4.36
+[2017-04-17 11:58:23.356] [ERROR] app-jk-error - post:undefined
+[2017-04-17 11:58:23.357] [ERROR] app-jk-error - 0: D:\软件安装\NodeJS\node.exe
+[2017-04-17 11:58:23.357] [ERROR] app-jk-error - 1: D:\test\node\log4j\app.js
+[2017-04-17 11:58:23.358] [ERROR] app-jk-error - 2: host-10.0.4.36
+[2017-04-17 11:58:23.359] [ERROR] app-jk-error - 3: port-9888
+[2017-04-17 11:58:42.192] [ERROR] app-jk-error - 错误
+[2017-04-17 11:58:42.195] [INFO] app-jk-error - 信息
+[2017-04-17 11:58:42.196] [WARN] app-jk-error - 警告cc
+[2017-04-17 11:58:42.197] [DEBUG] app-jk-error - 测试
+[2017-04-17 11:58:42.198] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 11:58:42.198] [ERROR] app-jk-error - post:9888
+[2017-04-17 11:58:42.199] [ERROR] app-jk-error - 0: D:\软件安装\NodeJS\node.exe
+[2017-04-17 11:58:42.200] [ERROR] app-jk-error - 1: D:\test\node\log4j\app.js
+[2017-04-17 11:58:42.200] [ERROR] app-jk-error - 2: 10.0.4.36:9888
+[2017-04-17 13:38:48.868] [ERROR] app-jk-error - 错误
+[2017-04-17 13:38:48.872] [INFO] app-jk-error - 信息
+[2017-04-17 13:38:48.873] [WARN] app-jk-error - 警告cc
+[2017-04-17 13:38:48.874] [DEBUG] app-jk-error - 测试
+[2017-04-17 13:38:48.874] [ERROR] app-jk-error - { host: '10.0.4.36', port: '9888' }
+[2017-04-17 13:38:48.877] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 13:38:48.877] [ERROR] app-jk-error - post:9888
+[2017-04-17 13:38:48.878] [ERROR] app-jk-error - 0: D:\软件安装\NodeJS\node.exe
+[2017-04-17 13:38:48.878] [ERROR] app-jk-error - 1: D:\test\node\log4j\app.js
+[2017-04-17 13:38:48.879] [ERROR] app-jk-error - 2: 10.0.4.36:9888
+[2017-04-17 13:52:51.280] [ERROR] app-jk-error - 错误
+[2017-04-17 13:52:51.285] [INFO] app-jk-error - 信息
+[2017-04-17 13:52:51.286] [WARN] app-jk-error - 警告cc
+[2017-04-17 13:52:51.287] [DEBUG] app-jk-error - 测试
+[2017-04-17 13:52:51.288] [ERROR] app-jk-error - { host: '10.0.4.36', pot: 9888 }
+[2017-04-17 13:52:51.291] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 13:52:51.292] [ERROR] app-jk-error - post:undefined
+[2017-04-17 13:52:51.293] [ERROR] app-jk-error - 0: D:\软件安装\NodeJS\node.exe
+[2017-04-17 13:52:51.293] [ERROR] app-jk-error - 1: D:\test\node\log4j\app.js
+[2017-04-17 13:52:51.294] [ERROR] app-jk-error - 2: 10.0.4.36:9888
+[2017-04-17 13:53:04.811] [ERROR] app-jk-error - 错误
+[2017-04-17 13:53:04.815] [INFO] app-jk-error - 信息
+[2017-04-17 13:53:04.816] [WARN] app-jk-error - 警告cc
+[2017-04-17 13:53:04.816] [DEBUG] app-jk-error - 测试
+[2017-04-17 13:53:04.818] [ERROR] app-jk-error - { host: '10.0.4.36', post: 9888 }
+[2017-04-17 13:53:04.821] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 13:53:04.823] [ERROR] app-jk-error - post:undefined
+[2017-04-17 13:53:04.824] [ERROR] app-jk-error - 0: D:\软件安装\NodeJS\node.exe
+[2017-04-17 13:53:04.825] [ERROR] app-jk-error - 1: D:\test\node\log4j\app.js
+[2017-04-17 13:53:04.825] [ERROR] app-jk-error - 2: 10.0.4.36:9888
+[2017-04-17 13:53:25.694] [ERROR] app-jk-error - 错误
+[2017-04-17 13:53:25.698] [INFO] app-jk-error - 信息
+[2017-04-17 13:53:25.699] [WARN] app-jk-error - 警告cc
+[2017-04-17 13:53:25.699] [DEBUG] app-jk-error - 测试
+[2017-04-17 13:53:25.700] [ERROR] app-jk-error - { host: '10.0.4.36', post: 9888 }
+[2017-04-17 13:53:25.703] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 13:53:25.703] [ERROR] app-jk-error - 
+[2017-04-17 13:53:25.704] [ERROR] app-jk-error - 0: D:\软件安装\NodeJS\node.exe
+[2017-04-17 13:53:25.705] [ERROR] app-jk-error - 1: D:\test\node\log4j\app.js
+[2017-04-17 13:53:25.705] [ERROR] app-jk-error - 2: 10.0.4.36:9888
+[2017-04-17 13:54:21.787] [ERROR] app-jk-error - 错误
+[2017-04-17 13:54:21.791] [INFO] app-jk-error - 信息
+[2017-04-17 13:54:21.792] [WARN] app-jk-error - 警告cc
+[2017-04-17 13:54:21.793] [DEBUG] app-jk-error - 测试
+[2017-04-17 13:54:21.794] [ERROR] app-jk-error - { host: '10.0.4.36', post: 9888 }
+[2017-04-17 13:54:21.796] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 13:54:21.797] [ERROR] app-jk-error - post:undefined
+[2017-04-17 13:54:21.799] [ERROR] app-jk-error - 0: D:\软件安装\NodeJS\node.exe
+[2017-04-17 13:54:21.800] [ERROR] app-jk-error - 1: D:\test\node\log4j\app.js
+[2017-04-17 13:54:21.801] [ERROR] app-jk-error - 2: 10.0.4.36:9888
+[2017-04-17 13:54:59.136] [ERROR] app-jk-error - 错误
+[2017-04-17 13:54:59.140] [INFO] app-jk-error - 信息
+[2017-04-17 13:54:59.141] [WARN] app-jk-error - 警告cc
+[2017-04-17 13:54:59.141] [DEBUG] app-jk-error - 测试
+[2017-04-17 13:54:59.142] [ERROR] app-jk-error - { host: '10.0.4.231', port: 9888 }
+[2017-04-17 13:54:59.146] [ERROR] app-jk-error - host:10.0.4.231
+[2017-04-17 13:54:59.147] [ERROR] app-jk-error - post:9888
+[2017-04-17 13:54:59.148] [ERROR] app-jk-error - 0: D:\软件安装\NodeJS\node.exe
+[2017-04-17 13:54:59.149] [ERROR] app-jk-error - 1: D:\test\node\log4j\app.js
+[2017-04-17 13:54:59.149] [ERROR] app-jk-error - 2: 10.0.4.36:9888
+[2017-04-17 13:55:29.676] [ERROR] app-jk-error - 错误
+[2017-04-17 13:55:29.680] [INFO] app-jk-error - 信息
+[2017-04-17 13:55:29.681] [WARN] app-jk-error - 警告cc
+[2017-04-17 13:55:29.682] [DEBUG] app-jk-error - 测试
+[2017-04-17 13:55:29.682] [ERROR] app-jk-error - { host: '10.0.4.36', post: 9888 }
+[2017-04-17 13:55:29.685] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 13:55:29.686] [ERROR] app-jk-error - post:undefined
+[2017-04-17 13:55:29.687] [ERROR] app-jk-error - 0: D:\软件安装\NodeJS\node.exe
+[2017-04-17 13:55:29.688] [ERROR] app-jk-error - 1: D:\test\node\log4j\app.js
+[2017-04-17 13:55:29.688] [ERROR] app-jk-error - 2: 10.0.4.36:9888
+[2017-04-17 13:56:01.278] [ERROR] app-jk-error - 错误
+[2017-04-17 13:56:01.282] [INFO] app-jk-error - 信息
+[2017-04-17 13:56:01.283] [WARN] app-jk-error - 警告cc
+[2017-04-17 13:56:01.284] [DEBUG] app-jk-error - 测试
+[2017-04-17 13:56:01.285] [ERROR] app-jk-error - { host: '10.0.4.36', post: 9888 }
+[2017-04-17 13:56:01.288] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 13:56:01.289] [ERROR] app-jk-error - post:undefined
+[2017-04-17 13:56:01.290] [ERROR] app-jk-error - 0: D:\软件安装\NodeJS\node.exe
+[2017-04-17 13:56:01.291] [ERROR] app-jk-error - 1: D:\test\node\log4j\app.js
+[2017-04-17 13:56:01.291] [ERROR] app-jk-error - 2: 10.0.4.36:9888
+[2017-04-17 13:56:18.190] [ERROR] app-jk-error - 错误
+[2017-04-17 13:56:18.195] [INFO] app-jk-error - 信息
+[2017-04-17 13:56:18.196] [WARN] app-jk-error - 警告cc
+[2017-04-17 13:56:18.196] [DEBUG] app-jk-error - 测试
+[2017-04-17 13:56:18.197] [ERROR] app-jk-error - { host: '10.0.4.36', post: 9888 }
+[2017-04-17 13:56:18.200] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 13:56:18.201] [ERROR] app-jk-error - post:undefined
+[2017-04-17 13:56:18.201] [ERROR] app-jk-error - 0: D:\软件安装\NodeJS\node.exe
+[2017-04-17 13:56:18.202] [ERROR] app-jk-error - 1: D:\test\node\log4j\app.js
+[2017-04-17 13:56:18.203] [ERROR] app-jk-error - 2: 10.0.4.36:9888
+[2017-04-17 13:57:37.202] [ERROR] app-jk-error - 错误
+[2017-04-17 13:57:37.206] [INFO] app-jk-error - 信息
+[2017-04-17 13:57:37.207] [WARN] app-jk-error - 警告cc
+[2017-04-17 13:57:37.208] [DEBUG] app-jk-error - 测试
+[2017-04-17 13:57:37.209] [ERROR] app-jk-error - { host: '10.0.4.36', post: 9888 }
+[2017-04-17 13:57:37.212] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 13:57:37.213] [ERROR] app-jk-error - post:undefined
+[2017-04-17 13:58:09.996] [ERROR] app-jk-error - 错误
+[2017-04-17 13:58:10.000] [INFO] app-jk-error - 信息
+[2017-04-17 13:58:10.001] [WARN] app-jk-error - 警告cc
+[2017-04-17 13:58:10.001] [DEBUG] app-jk-error - 测试
+[2017-04-17 13:58:10.002] [ERROR] app-jk-error - { host: '10.0.4.36', post: 9888 }
+[2017-04-17 13:58:10.005] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 13:58:10.006] [ERROR] app-jk-error - post:undefined
+[2017-04-17 13:58:20.157] [ERROR] app-jk-error - 错误
+[2017-04-17 13:58:20.161] [INFO] app-jk-error - 信息
+[2017-04-17 13:58:20.162] [WARN] app-jk-error - 警告cc
+[2017-04-17 13:58:20.163] [DEBUG] app-jk-error - 测试
+[2017-04-17 13:58:20.164] [ERROR] app-jk-error - { host: '10.0.4.36', post: '9888' }
+[2017-04-17 13:58:20.167] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 13:58:20.168] [ERROR] app-jk-error - post:undefined
+[2017-04-17 13:58:27.888] [ERROR] app-jk-error - 错误
+[2017-04-17 13:58:27.892] [INFO] app-jk-error - 信息
+[2017-04-17 13:58:27.893] [WARN] app-jk-error - 警告cc
+[2017-04-17 13:58:27.893] [DEBUG] app-jk-error - 测试
+[2017-04-17 13:58:27.894] [ERROR] app-jk-error - { host: '10.0.4.36', post: '9888' }
+[2017-04-17 13:58:27.897] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 13:58:27.898] [ERROR] app-jk-error - post:undefined
+[2017-04-17 14:00:46.153] [ERROR] app-jk-error - 错误
+[2017-04-17 14:00:46.157] [INFO] app-jk-error - 信息
+[2017-04-17 14:00:46.158] [WARN] app-jk-error - 警告cc
+[2017-04-17 14:00:46.159] [DEBUG] app-jk-error - 测试
+[2017-04-17 14:00:46.160] [ERROR] app-jk-error - { host: 'host-10.0.4.36', port: undefined }
+[2017-04-17 14:00:46.162] [ERROR] app-jk-error - host:host-10.0.4.36
+[2017-04-17 14:00:46.163] [ERROR] app-jk-error - post:undefined
+[2017-04-17 14:00:48.783] [ERROR] app-jk-error - 错误
+[2017-04-17 14:00:48.787] [INFO] app-jk-error - 信息
+[2017-04-17 14:00:48.788] [WARN] app-jk-error - 警告cc
+[2017-04-17 14:00:48.789] [DEBUG] app-jk-error - 测试
+[2017-04-17 14:00:48.789] [ERROR] app-jk-error - { host: '10.0.4.36', port: undefined }
+[2017-04-17 14:00:48.793] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 14:00:48.794] [ERROR] app-jk-error - post:undefined
+[2017-04-17 14:00:58.994] [ERROR] app-jk-error - 错误
+[2017-04-17 14:00:58.998] [INFO] app-jk-error - 信息
+[2017-04-17 14:00:58.999] [WARN] app-jk-error - 警告cc
+[2017-04-17 14:00:59.000] [DEBUG] app-jk-error - 测试
+[2017-04-17 14:00:59.000] [ERROR] app-jk-error - { host: '10.0.4.36', port: '9888' }
+[2017-04-17 14:00:59.003] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 14:00:59.004] [ERROR] app-jk-error - post:9888
+[2017-04-17 14:01:20.464] [ERROR] app-jk-error - 错误
+[2017-04-17 14:01:20.468] [INFO] app-jk-error - 信息
+[2017-04-17 14:01:20.469] [WARN] app-jk-error - 警告cc
+[2017-04-17 14:01:20.470] [DEBUG] app-jk-error - 测试
+[2017-04-17 14:01:20.471] [ERROR] app-jk-error - { host: '10.0.4.36', port: 9888 }
+[2017-04-17 14:01:20.474] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 14:01:20.475] [ERROR] app-jk-error - post:9888
+[2017-04-17 14:01:36.937] [ERROR] app-jk-error - 错误
+[2017-04-17 14:01:36.941] [INFO] app-jk-error - 信息
+[2017-04-17 14:01:36.942] [WARN] app-jk-error - 警告cc
+[2017-04-17 14:01:36.943] [DEBUG] app-jk-error - 测试
+[2017-04-17 14:01:36.944] [ERROR] app-jk-error - { host: '10.0.4.36', port: 9888 }
+[2017-04-17 14:01:36.947] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 14:01:36.947] [ERROR] app-jk-error - post:9888
+[2017-04-17 14:14:39.898] [ERROR] app-jk-error - 错误
+[2017-04-17 14:14:39.902] [INFO] app-jk-error - 信息
+[2017-04-17 14:14:39.903] [WARN] app-jk-error - 警告cc
+[2017-04-17 14:14:39.904] [DEBUG] app-jk-error - 测试
+[2017-04-17 14:14:39.905] [ERROR] app-jk-error - 0: D:\软件安装\NodeJS\node.exe
+[2017-04-17 14:14:39.905] [ERROR] app-jk-error - 1: D:\test\node\log4j\app.js
+[2017-04-17 14:14:39.906] [ERROR] app-jk-error - 2: 10.0.4.36:9888
+[2017-04-17 14:14:39.907] [INFO] app-jk-error - Map { 'host' => '10.0.4.231', 'port' => 9888 }
+[2017-04-17 14:15:04.302] [ERROR] app-jk-error - 错误
+[2017-04-17 14:15:04.306] [INFO] app-jk-error - 信息
+[2017-04-17 14:15:04.307] [WARN] app-jk-error - 警告cc
+[2017-04-17 14:15:04.307] [DEBUG] app-jk-error - 测试
+[2017-04-17 14:15:04.308] [ERROR] app-jk-error - 0: D:\软件安装\NodeJS\node.exe
+[2017-04-17 14:15:04.309] [ERROR] app-jk-error - 1: D:\test\node\log4j\app.js
+[2017-04-17 14:15:04.309] [ERROR] app-jk-error - 2: host-10.0.4.36
+[2017-04-17 14:15:04.310] [ERROR] app-jk-error - 3: port-9888
+[2017-04-17 14:15:04.310] [INFO] app-jk-error - Map { 'host' => '10.0.4.231', 'port' => 9888 }
+[2017-04-17 14:15:23.116] [INFO] app-jk-error - 
+[2017-04-17 14:15:23.120] [INFO] app-jk-error - 
+[2017-04-17 14:15:27.612] [INFO] app-jk-error - 
+[2017-04-17 14:15:27.616] [INFO] app-jk-error - 
+[2017-04-17 14:16:13.238] [INFO] app-jk-error - 10.0.4.231
+[2017-04-17 14:16:13.242] [INFO] app-jk-error - 
+[2017-04-17 14:16:20.358] [INFO] app-jk-error - 10.0.4.231
+[2017-04-17 14:16:20.362] [INFO] app-jk-error - 9888
+[2017-04-17 14:19:14.344] [INFO] app-jk-error - 10.0.4.231
+[2017-04-17 14:19:14.348] [INFO] app-jk-error - 9888
+[2017-04-17 14:19:14.350] [ERROR] app-jk-error - { host: '10.0.4.231', port: 9888 }
+[2017-04-17 14:23:38.603] [INFO] app-jk-error - 10.0.4.231
+[2017-04-17 14:23:38.607] [INFO] app-jk-error - 9888
+[2017-04-17 14:23:38.609] [ERROR] app-jk-error - Map { host: '10.0.4.231', port: 9888 }
+[2017-04-17 14:23:53.936] [INFO] app-jk-error - 10.0.4.231
+[2017-04-17 14:23:53.941] [INFO] app-jk-error - 9888
+[2017-04-17 14:23:53.944] [ERROR] app-jk-error - Map { host: '10.0.4.231', port: 9888 }
+[2017-04-17 14:25:08.438] [ERROR] app-jk-error - Map { host: '10.0.4.231', port: 9888 }
+[2017-04-17 14:25:24.629] [ERROR] app-jk-error - { host: '10.0.4.231', port: 9888 }
+[2017-04-17 14:25:33.767] [ERROR] app-jk-error - { host: '10.0.4.231', port: 9888 }
+[2017-04-17 14:40:48.682] [ERROR] app-jk-error - 
+[2017-04-17 14:40:56.642] [ERROR] app-jk-error - 80
+[2017-04-17 14:41:03.694] [ERROR] app-jk-error - 80
+[2017-04-17 14:43:16.936] [ERROR] app-jk-error - 80
+[2017-04-17 14:43:19.313] [ERROR] app-jk-error - 80
+[2017-04-17 14:43:39.295] [ERROR] app-jk-error - { host: '10.0.4.36', port: 80 }
+[2017-04-17 14:43:39.301] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 14:43:39.302] [ERROR] app-jk-error - post:80
+[2017-04-17 14:44:27.399] [ERROR] app-jk-error - { host: '10.0.4.36', port: 80 }
+[2017-04-17 14:44:27.406] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 14:44:27.407] [ERROR] app-jk-error - port:80
+[2017-04-17 14:45:35.950] [ERROR] app-jk-error - { host: '10.0.4.36', port: 80 }
+[2017-04-17 14:45:35.956] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 14:45:35.957] [ERROR] app-jk-error - port:80
+[2017-04-17 14:45:35.959] [ERROR] app-jk-error - 80
+[2017-04-17 15:12:58.561] [ERROR] app-jk-error - { host: '10.0.4.36', port: 80 }
+[2017-04-17 15:12:58.568] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-17 15:12:58.569] [ERROR] app-jk-error - port:80
+[2017-04-17 15:12:58.569] [ERROR] app-jk-error - 80
+[2017-04-17 15:12:58.570] [ERROR] app-jk-error - D:\test\node\log4j
