@@ -1,0 +1,162 @@
+[2017-04-19 08:50:46.791] [ERROR] app-jk-error - { host: '10.0.4.36', port: 9888 }
+[2017-04-19 08:50:46.797] [ERROR] app-jk-error - host:10.0.4.36
+[2017-04-19 08:50:46.799] [ERROR] app-jk-error - port:9888
+[2017-04-19 08:50:46.799] [ERROR] app-jk-error - 80
+[2017-04-19 08:50:46.800] [ERROR] app-jk-error - D:\test\node\log4j
+[2017-04-19 08:52:30.049] [ERROR] app-jk-error - 
+[2017-04-19 08:52:35.909] [ERROR] app-jk-error - 
+[2017-04-19 08:52:50.908] [ERROR] app-jk-error - 
+[2017-04-19 08:53:03.152] [ERROR] app-jk-error - 
+[2017-04-19 08:53:11.395] [ERROR] app-jk-error - { ALLUSERSPROFILE: 'C:\\ProgramData',
+  APPDATA: 'C:\\Users\\chenliang\\AppData\\Roaming',
+  CommonProgramFiles: 'C:\\Program Files\\Common Files',
+  'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files',
+  CommonProgramW6432: 'C:\\Program Files\\Common Files',
+  COMPUTERNAME: 'CHENLIANG-PC',
+  ComSpec: 'C:\\Windows\\system32\\cmd.exe',
+  FP_NO_HOST_CHECK: 'NO',
+  HOMEDRIVE: 'C:',
+  HOMEPATH: '\\Users\\chenliang',
+  JAVA_HOME: 'C:\\Program Files\\Java\\jdk1.8.0_101',
+  LOCALAPPDATA: 'C:\\Users\\chenliang\\AppData\\Local',
+  LOGONSERVER: '\\\\CHENLIANG-PC',
+  MAVEN_HOME: 'D:\\apache-maven-3.3.9',
+  NUMBER_OF_PROCESSORS: '8',
+  OS: 'Windows_NT',
+  Path: 'C:\\Users\\chenliang\\AppData\\Roaming\\npm;D:\\软件安装\\NodeJS\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\软件安装\\NodeJS\\;C:\\Program Files\\MIT\\Kerberos\\bin;D:\\apache-maven-3.3.9\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\chenliang\\AppData\\Roaming\\npm',
+  PATHEXT: '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+  PROCESSOR_ARCHITECTURE: 'AMD64',
+  PROCESSOR_IDENTIFIER: 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel',
+  PROCESSOR_LEVEL: '6',
+  PROCESSOR_REVISION: '3c03',
+  ProgramData: 'C:\\ProgramData',
+  ProgramFiles: 'C:\\Program Files',
+  'ProgramFiles(x86)': 'C:\\Program Files (x86)',
+  ProgramW6432: 'C:\\Program Files',
+  PROMPT: '$P$G',
+  PSModulePath: 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\',
+  PUBLIC: 'C:\\Users\\Public',
+  SESSIONNAME: 'Console',
+  SystemDrive: 'C:',
+  SystemRoot: 'C:\\Windows',
+  TEMP: 'C:\\Users\\CHENLI~1\\AppData\\Local\\Temp',
+  TMP: 'C:\\Users\\CHENLI~1\\AppData\\Local\\Temp',
+  USERDOMAIN: 'chenliang-PC',
+  USERNAME: 'chenliang',
+  USERPROFILE: 'C:\\Users\\chenliang',
+  windir: 'C:\\Windows',
+  windows_tracing_flags: '3',
+  windows_tracing_logfile: 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log' }
+[2017-04-19 08:54:18.182] [ERROR] app-jk-error - { ALLUSERSPROFILE: 'C:\\ProgramData',
+  APPDATA: 'C:\\Users\\chenliang\\AppData\\Roaming',
+  CommonProgramFiles: 'C:\\Program Files\\Common Files',
+  'CommonProgramFiles(x86)': 'C:\\Program Files (x86)\\Common Files',
+  CommonProgramW6432: 'C:\\Program Files\\Common Files',
+  COMPUTERNAME: 'CHENLIANG-PC',
+  ComSpec: 'C:\\Windows\\system32\\cmd.exe',
+  FP_NO_HOST_CHECK: 'NO',
+  HOMEDRIVE: 'C:',
+  HOMEPATH: '\\Users\\chenliang',
+  JAVA_HOME: 'C:\\Program Files\\Java\\jdk1.8.0_101',
+  LOCALAPPDATA: 'C:\\Users\\chenliang\\AppData\\Local',
+  LOGONSERVER: '\\\\CHENLIANG-PC',
+  MAVEN_HOME: 'D:\\apache-maven-3.3.9',
+  NUMBER_OF_PROCESSORS: '8',
+  OS: 'Windows_NT',
+  Path: 'C:\\Users\\chenliang\\AppData\\Roaming\\npm;D:\\软件安装\\NodeJS\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\软件安装\\NodeJS\\;C:\\Program Files\\MIT\\Kerberos\\bin;D:\\apache-maven-3.3.9\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\EsafeNet\\Cobra DocGuard Client;C:\\Users\\chenliang\\AppData\\Roaming\\npm',
+  PATHEXT: '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC',
+  PROCESSOR_ARCHITECTURE: 'AMD64',
+  PROCESSOR_IDENTIFIER: 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel',
+  PROCESSOR_LEVEL: '6',
+  PROCESSOR_REVISION: '3c03',
+  ProgramData: 'C:\\ProgramData',
+  ProgramFiles: 'C:\\Program Files',
+  'ProgramFiles(x86)': 'C:\\Program Files (x86)',
+  ProgramW6432: 'C:\\Program Files',
+  PROMPT: '$P$G',
+  PSModulePath: 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\',
+  PUBLIC: 'C:\\Users\\Public',
+  SESSIONNAME: 'Console',
+  SystemDrive: 'C:',
+  SystemRoot: 'C:\\Windows',
+  TEMP: 'C:\\Users\\CHENLI~1\\AppData\\Local\\Temp',
+  TMP: 'C:\\Users\\CHENLI~1\\AppData\\Local\\Temp',
+  USERDOMAIN: 'chenliang-PC',
+  USERNAME: 'chenliang',
+  USERPROFILE: 'C:\\Users\\chenliang',
+  windir: 'C:\\Windows',
+  windows_tracing_flags: '3',
+  windows_tracing_logfile: 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log' }
+[2017-04-19 08:54:29.009] [ERROR] app-jk-error - 
+[2017-04-19 08:54:38.748] [ERROR] app-jk-error - 
+[2017-04-19 08:54:53.513] [ERROR] app-jk-error - 
+[2017-04-19 08:56:06.849] [ERROR] app-jk-error - 
+[2017-04-19 08:56:20.385] [ERROR] app-jk-error - 
+[2017-04-19 08:56:20.393] [ERROR] app-jk-error - bar
+[2017-04-19 08:56:41.322] [ERROR] app-jk-error - 
+[2017-04-19 08:56:41.329] [ERROR] app-jk-error - bar
+[2017-04-19 08:57:09.367] [ERROR] app-jk-error - 
+[2017-04-19 08:57:09.374] [ERROR] app-jk-error - bar
+[2017-04-19 08:57:30.827] [ERROR] app-jk-error - 
+[2017-04-19 08:59:02.305] [ERROR] app-jk-error - bar
+[2017-04-19 08:59:29.899] [ERROR] app-jk-error - 
+[2017-04-19 08:59:45.827] [ERROR] app-jk-error - 
+[2017-04-19 09:01:28.971] [ERROR] app-jk-error - 
+[2017-04-19 09:02:11.651] [ERROR] app-jk-error - 
+[2017-04-19 09:02:27.138] [ERROR] app-jk-error - 
+[2017-04-19 09:02:42.428] [ERROR] app-jk-error - 
+[2017-04-19 09:03:39.106] [ERROR] app-jk-error - 
+[2017-04-19 09:06:19.049] [ERROR] app-jk-error - 
+[2017-04-19 09:06:37.207] [ERROR] app-jk-error - production
+[2017-04-19 09:07:12.080] [ERROR] app-jk-error - production
+[2017-04-19 09:07:42.151] [ERROR] app-jk-error - 
+[2017-04-19 09:08:02.690] [ERROR] app-jk-error - production
+[2017-04-19 09:08:13.436] [ERROR] app-jk-error - 9888
+[2017-04-19 09:09:02.322] [ERROR] app-jk-error - 
+[2017-04-19 09:09:02.330] [ERROR] app-jk-error - 9888 NODE_HOST=10.0.4.36
+[2017-04-19 09:09:15.851] [ERROR] app-jk-error - 
+[2017-04-19 09:09:15.858] [ERROR] app-jk-error - 9888,NODE_HOST=10.0.4.36
+[2017-04-19 09:10:13.500] [ERROR] app-jk-error - 10.0.4.36
+[2017-04-19 09:10:13.507] [ERROR] app-jk-error - 9888 
+[2017-04-19 09:10:29.302] [ERROR] app-jk-error - 10.0.4.36
+[2017-04-19 09:10:29.306] [ERROR] app-jk-error - 9888-NODE_HOST=10.0.4.36
+[2017-04-19 09:12:00.948] [ERROR] app-jk-error - 10.0.4.36
+[2017-04-19 09:12:00.955] [ERROR] app-jk-error - 9888-NODE_HOST=10.0.4.36
+[2017-04-19 09:12:00.959] [ERROR] app-jk-error - 
+[2017-04-19 09:12:17.202] [ERROR] app-jk-error - 10.0.4.36
+[2017-04-19 09:12:17.208] [ERROR] app-jk-error - 9888-NODE_HOST=10.0.4.36
+[2017-04-19 09:12:17.209] [ERROR] app-jk-error - 3005
+[2017-04-19 09:12:46.167] [ERROR] app-jk-error - 10.0.4.36
+[2017-04-19 09:12:46.174] [ERROR] app-jk-error - 9888-NODE_HOST=10.0.4.36
+[2017-04-19 09:12:46.176] [ERROR] app-jk-error - 
+[2017-04-19 09:12:46.177] [ERROR] app-jk-error - 
+[2017-04-19 09:13:14.365] [ERROR] app-jk-error - 10.0.4.36
+[2017-04-19 09:13:14.373] [ERROR] app-jk-error - 9888-NODE_HOST=10.0.4.36
+[2017-04-19 09:13:14.378] [ERROR] app-jk-error - 3005
+[2017-04-19 09:13:14.381] [ERROR] app-jk-error - 10.0.4.36
+[2017-04-19 09:13:35.614] [ERROR] app-jk-error - 10.0.4.36
+[2017-04-19 09:13:35.622] [ERROR] app-jk-error - 9888-NODE_HOST=10.0.4.36
+[2017-04-19 09:13:35.624] [ERROR] app-jk-error - 4005
+[2017-04-19 09:13:35.626] [ERROR] app-jk-error - 10.0.4.36
+[2017-04-19 09:16:26.073] [ERROR] app-jk-error - 
+[2017-04-19 09:16:26.082] [ERROR] app-jk-error - 
+[2017-04-19 09:16:26.085] [ERROR] app-jk-error - 4005
+[2017-04-19 09:16:26.087] [ERROR] app-jk-error - 10.0.4.36
+[2017-04-19 09:18:59.287] [ERROR] app-jk-error - host:10.0.4.231
+[2017-04-19 09:18:59.293] [ERROR] app-jk-error - port:9888
+[2017-04-19 09:18:59.295] [ERROR] app-jk-error - 4005
+[2017-04-19 09:19:26.106] [ERROR] app-jk-error - host:'10.0.4.242'
+[2017-04-19 09:19:26.113] [ERROR] app-jk-error - port:9888
+[2017-04-19 09:19:26.115] [ERROR] app-jk-error - 4005
+[2017-04-19 09:20:14.381] [ERROR] app-jk-error - host:'10.0.4.242'
+[2017-04-19 09:20:14.385] [ERROR] app-jk-error - port:9888
+[2017-04-19 09:20:14.386] [ERROR] app-jk-error - 3005
+[2017-04-19 09:22:27.605] [ERROR] app-jk-error - host:'10.0.4.242'
+[2017-04-19 09:22:27.609] [ERROR] app-jk-error - port:9888
+[2017-04-19 09:22:27.610] [ERROR] app-jk-error - 3005
+[2017-04-19 09:22:37.613] [ERROR] app-jk-error - host:'10.0.4.242'
+[2017-04-19 09:22:37.622] [ERROR] app-jk-error - port:9888
+[2017-04-19 09:22:37.624] [ERROR] app-jk-error - 3004
+[2017-04-19 09:24:40.923] [ERROR] app-jk-error - host:'10.0.4.242'
+[2017-04-19 09:24:40.927] [ERROR] app-jk-error - port:9888
+[2017-04-19 09:24:40.928] [ERROR] app-jk-error - 3004
