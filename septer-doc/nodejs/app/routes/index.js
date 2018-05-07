@@ -5,6 +5,13 @@ var httpUtil = require('../util/HttpUtil')
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
+router.get('/test', function(req, res, next) {
+  res.render('test', { title: 'Express' });
+});
+
+router.get('/file/:file', function(req, res, next) {
+  res.render(req.params.file, { title: 'Express' });
+});
 
 router.get("/login",function(req, res, next){
 	res.render('login',{"msg":""});
@@ -36,5 +43,6 @@ router.get('/api/*',function(req,res,next){
     //console.log('ccc');
     httpUtil.pipe(req,res);
 });
+
 
 module.exports = router;

@@ -8,7 +8,7 @@ app.controller('tableController',['$scope', '$http', function($scope, $http) {
 		$scope.contactList = response;
 		$scope.contact = '';
 		});
-};
+	};
 refresh();
 	$scope.addContact = function() {
 		console.log($scope.contact);

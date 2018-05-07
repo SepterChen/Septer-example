@@ -28,13 +28,13 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 
-app.use(session({
-
-  store: new RedisStore({
-    host: "10.0.4.116",
-    port: 6379,
-    db: "0"
-  }),
+app.use(
+  session({
+    store: new RedisStore({
+      host: "10.0.4.116",
+      port: 6379,
+      db: "0"
+    }),
   resave:false,
   saveUninitialized:true,
   secret: 'keyboard cat',

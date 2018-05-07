@@ -18,6 +18,7 @@ module.exports.pipe = function(req, res){
     }*/
     var url_index = req.baseUrl+req.url+'?'+URL.parse(req.url).query;
     url_index = url_index.replace("/api","");
+    console.log(url_index);
     var url = setting.server.host +　':' + setting.server.port + url_index;
     var r = request(url);
     r.on('error',function(err){
