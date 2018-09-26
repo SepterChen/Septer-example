@@ -27,13 +27,13 @@
 .controller('AboutController', function ($scope, $route) { $scope.$route = $route;})
 .config(function ($routeProvider) {
     $routeProvider.
-    when('/test1', {
-        templateUrl: 'file/test1',
-        controller: 'HomeController'
-    }).
     when('/test2', {
         templateUrl: 'file/test2',  
         controller: 'AboutController'
+    })
+    .otherwise({
+        templateUrl: 'file/test1',
+        controller: 'HomeController'
     });
 });
 </script>
