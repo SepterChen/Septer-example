@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>聊天页面</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+</head>
+<body style="background-color: #5b845c;padding: 0;margin: 0; text-align: center;">
+	<h1 style="margin-top: 30px;">WelCome: <%= userId %></h1>
+	<div class="container-fluid" style="width: 1000px;height: 600px; margin-top: 3%; background-color: #fff; border-radius: 5px;">
+
+<div class="row">
+		<div class="col-xs-3" id="leftMenu" style="height: 600px; border-right: 1px solid #dddcdd;padding: 0;margin: 0; overflow-y: auto;">
+			 <button type="button" class="btn btn-success btn-lg" style="width: 95%; margin: 2px;" onclick="javascript:startChat('chenliang')">chenliang</button> 
+			 <button type="button" class="btn btn-success btn-lg" style="width: 95%; margin: 2px;" onclick="javascript:startChat('chenliang1')">chenliang1</button>
+			 <button type="button" class="btn btn-success btn-lg" style="width: 95%; margin: 2px;" onclick="javascript:startChat('chenliang2')">chenliang2</button>
+			 <button type="button" class="btn btn-success btn-lg" style="width: 95%; margin: 2px;" onclick="javascript:startChat('chenliang3')">chenliang3</button>
+		</div>
+
+		<div class="col-xs-9" style="height: 600px;padding: 0;margin: 0; background-color: #F5F5F5;">
+			
+			<div class="panel panel-success"style="height: 80%;width: 100%; padding: 0px;margin: 0px; border-bottom: 1px solid #DDDCDD">
+				<div id="chatTitle" class="panel-heading">名称</div>
+				<div class="panel-body" id="chatPanel" style="overflow-y: auto; height:437px; background-color: #F5F5F5;">
+  				</div>
+			</div>
+
+			<div style="height: 20%;">
+				<textarea id="message" name="" style="width: 100%;height: 70%;border:0; background-color: #F5F5F5;" ></textarea>
+				<button type="button" id="send" class="btn btn-success btn-sm" style="float: right; margin-right: 5px;" 	>发送</button>
+			</div>
+
+		</div>
+		</div>
+	</div>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script type="text/javascript">
+	/**
+	* 全局变量
+		currentUser 当前用户
+		toUser接收消息的用户
+	*/
+	var currentUser = '<%= userId %>';
+	var toUser = '';
+	$(function () {
+		var socket = io('http://10.0.4.116:3001');
+		$("#send").click(function () {
+			var msg = $('#message').val();
+			msg = $.trim(msg);
+			console.log(msg);
+			//点击发送消息
+			if (msg != '' && msg != undefined) {
+				//处理UI
+				dealSendMessageUI(msg);
+				//发送消息至socket
+				socket.emit('singleChat', Message(currentUser,toUser,msg,'text'));
+
+				$('#chatPanel').scrollTop(document.getElementById('chatPanel').scrollHeight);
+			}else{
+				alert('发送消息不能为空');
+				
+				return;
+			}
+			$('#message').val('');
+		});
+		//监听新用户加入
+		socket.on('newUser',function(data){
+			var userName = data.userId;
+			//处理新上线用户UI
+			dealNewChatUser(userName);
+			$('#chatPanel').scrollTop(document.getElementById('chatPanel').scrollHeight);
+		});
+		//收到消息
+        socket.on('singleChat', function(data){
+        	var userName = data['fromUserId'];
+          /*if($.inArray(userName,chatUsers)==-1) {
+　　　　		chatUsers.push(userName);
+			$('#leftMenu').append("<button type=\"button\" class=\"btn btn-success\" style=\"width: 95%; margin: 2px;\" onclick=\"javascript:startChat('"+userName+"')\">"+userName+"</button>");
+　　			}*/
+		
+          dealReceiveMessageUI(data['msg'])
+        });
+
+		socket.on('new message', function(data){
+        	console.log(data);
+        	//TODO 拉取未读数量
+        });
+
+        //连接成功,发送消息至socket服务器
+        socket.on('connect',function(){
+        	console.log('连接成功');
+          	socket.emit("start",{"userId":currentUser});
+        });
+
+      });
+	
+	//处理发送消息UI页面更新
+	function dealSendMessageUI(msg) {
+		$('#chatPanel').append("<br><div style='float: right;background-color:#9EEA6A;padding:5px;margin:5px;border-radius:3px;max-width:200px;'>"+$('#message').val()+ "<span style='color:#ff0000'></span>" +"</div><br>");
+	}
+	//处理接收消息UI页面更新
+	function dealReceiveMessageUI(msg) {
+		$('#chatPanel').append("<br><div style='float:left; background-color:#ffffff;padding:5px;margin:5px;border-radius:3px;max-width:200px;'>"+msg+"</div><br>");
+	}
+
+	var chatUsers = [];
+	//处理新增用户UI更新
+	function dealNewChatUser(userName) {
+		//console.log(chatUsers);
+		//console.log($.inArray(chatUsers,userName));
+
+		/*if($.inArray(userName,chatUsers)==-1) {
+　　　　		chatUsers.push(userName);
+			$('#leftMenu').append("<button type=\"button\" class=\"btn btn-success\" style=\"width: 95%; margin: 2px;\" onclick=\"javascript:startChat('"+userName+"')\">"+userName+"</button>");
+　　		}else{
+
+		}*/
+	}
+	function startChat(userId) {
+		$('#chatTitle').text(userId);
+		toUser = userId;
+	}
+	
+	function Message(fromUserId,toUserId,msg, type) {
+        return {'fromUserId':fromUserId,'toUserId':toUserId,'msg':msg,'type':type};
+    }
+	//监听Eenter点击事件
+	document.onkeydown = function (event) {
+        var e = event || window.event;
+        if (e && e.keyCode == 13) { 
+            $("#send").click(); 
+        }
+    }; 
+</script>
+</body>
+</html>

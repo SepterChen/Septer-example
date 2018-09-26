@@ -19,13 +19,13 @@
     <form action="">
       <input id="m" autocomplete="off" /><button>Send</button>
     </form>
-    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
     <script>
       $(function () {
         var socket = io();
         $('form').submit(function(){
-          socket.emit('chat message', $('#m').val());
+          socket.emit('chat message', Message('chenliang2',$('#m').val(),'text'));
           $('#m').val('');
           return false;
         });
@@ -33,7 +33,28 @@
           $('#messages').append($('<li>').text(msg));
           window.scrollTo(0, document.body.scrollHeight);
         });
+        socket.on('connect',function(){
+          socket.emit("start",{"userId":"chenliang"});
+        });
       });
+      /**
+       * 当用户点击某一个聊天窗口时,调用此函数
+       * 1.start消息,传递用户ID信息
+       * 2.消息体json格式
+       *      userId:用户ID
+      */
+      function startChat(userId) {
+        socket.emit("start",{"userId":userId});
+      }
+      
+      function sendMessage(userId,message) {
+        
+      }
+      
+      function Message(userId,msg, type) {
+        return {'userId':userId,'msg':msg,'type':type}
+      }
+
     </script>
   </body>
 </html>
