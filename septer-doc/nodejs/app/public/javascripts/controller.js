@@ -9,7 +9,7 @@ app.controller('tableController',['$scope', '$http', function($scope, $http) {
 		$scope.contact = '';
 		});
 	};
-refresh();
+	refresh();
 	$scope.addContact = function() {
 		console.log($scope.contact);
 		$http.post('/users/contactList',$scope.contact).success(function(response){
