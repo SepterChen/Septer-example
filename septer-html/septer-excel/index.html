@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表格</title>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/handsontable-pro@6.1.1/dist/handsontable.full.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/handsontable-pro@6.1.1/dist/handsontable.full.min.css" rel="stylesheet" media="screen">
+<body>
+<div id="example"></div>
+</body>
+</html>
+
+<script type="text/javascript">
+	var data = [
+				["", "", "", "", "","", "", "", "", "","", "", "", "", "","", "", "", "", "","", "", "", "", "",""
+				, "", "", "","", "", "", "", "","", "", ""],
+				[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],
+				[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],
+				[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],
+				[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],
+				[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],
+				[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""],[""]
+				];
+
+	var container = document.getElementById('example');
+	var hot = new Handsontable(container, {
+	  data: data,
+	  rowHeaders: true,
+	  colHeaders: true,
+	  filters: true,
+	  dropdownMenu: false,
+	  manualRowResize: true,
+  	  manualColumnResize: true,
+  	  contextMenu: true
+	});
+
+</script>
