@@ -1,6 +1,6 @@
-##dubbox使用说明
+## dubbox使用说明
 
-####POM
+#### POM
 ```xml
 	<dependency>
 		<groupId>com.alibaba</groupId>
@@ -15,7 +15,7 @@
 	</dependency>
 ```
 
-####XML 配置文件
+#### XML 配置文件
 ```xml
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
@@ -45,7 +45,7 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans
 
 ```
 
-####WEB 拦截器
+#### WEB 拦截器
 ```xml
 	<!--dubbox this listener must be defined before the spring listener -->
 	<listener>
@@ -92,7 +92,7 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans
 </beans>
 ```
 
-####Service
+#### Service
 ```java
 @Service("circleRestfulService")
 @Path("circle")
