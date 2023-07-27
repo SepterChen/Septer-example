@@ -1,7 +1,7 @@
-##fastdfs+nginx图片服务器
+## fastdfs+nginx图片服务器
 
 
-####软件下载
+#### 软件下载
 ```bash
 //fastdfs基础安装软件
 curl -o libfastcommon-master.zip  https://codeload.github.com/happyfish100/libfastcommon/zip/master
@@ -13,7 +13,7 @@ curl -o fastdfs-nginx-module-master.zip https://codeload.github.com/happyfish100
 curl -o nginx-1.12.2.tar.gz https://nginx.org/download/nginx-1.12.2.tar.gz
 
 ```
-####软件安装
+#### 软件安装
 >安装编译器软件
 ```bash
 	yum install unzip zip  gcc-c++
